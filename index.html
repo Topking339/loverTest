@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我们的爱情故事 ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 第一页：认识天数 -->
+        <div class="page active" id="page1">
+            <div class="content">
+                <div class="heart-icon">💕</div>
+                <h1 class="title">亲爱的宝贝</h1>
+                <div class="days-counter">
+                    <span class="number" id="daysCount">0</span>
+                    <span class="label">天</span>
+                </div>
+                <p class="subtitle">今天是我们认识的第 <span id="totalDays">0</span> 天</p>
+                <p class="message">每一天都因为有你而变得特别</p>
+                <div class="next-hint">点击继续我们的故事 →</div>
+            </div>
+        </div>
+
+        <!-- 第二页：深夜聊天 -->
+        <div class="page" id="page2">
+            <div class="content">
+                <div class="moon-icon">🌙</div>
+                <h2 class="title">还记得那个深夜吗？</h2>
+                <div class="memory-card">
+                    <div class="date">2024年1月15日</div>
+                    <p class="memory-text">我们聊到了深夜，你还记得我们聊的是什么吗？</p>
+                    <div class="memory-detail">
+                        <p>那晚我们聊到了凌晨2点，从工作聊到生活，从梦想聊到未来...</p>
+                        <p>你说希望我们能一直这样聊下去，我也这么想 ❤️</p>
+                    </div>
+                </div>
+                <div class="next-hint">继续我们的回忆 →</div>
+            </div>
+        </div>
+
+        <!-- 第三页：第一次约会 -->
+        <div class="page" id="page3">
+            <div class="content">
+                <div class="coffee-icon">☕</div>
+                <h2 class="title">我们的第一次约会</h2>
+                <div class="memory-card">
+                    <div class="date">2024年2月1日</div>
+                    <p class="memory-text">那家咖啡店，你还记得吗？</p>
+                    <div class="memory-detail">
+                        <p>你点了一杯拿铁，我点了一杯美式</p>
+                        <p>我们坐在窗边，阳光洒在你的脸上，那一刻我觉得整个世界都亮了 ✨</p>
+                    </div>
+                </div>
+                <div class="next-hint">还有更多美好回忆 →</div>
+            </div>
+        </div>
+
+        <!-- 第四页：一起旅行 -->
+        <div class="page" id="page4">
+            <div class="content">
+                <div class="travel-icon">✈️</div>
+                <h2 class="title">一起看过的风景</h2>
+                <div class="memory-card">
+                    <div class="date">2024年3月20日</div>
+                    <p class="memory-text">那次周末短途旅行，你还记得吗？</p>
+                    <div class="memory-detail">
+                        <p>我们去了海边，你穿着白色连衣裙</p>
+                        <p>海风吹起你的发丝，夕阳西下，我们手牵手走在沙滩上</p>
+                        <p>那一刻，我想时间永远停留 🌅</p>
+                    </div>
+                </div>
+                <div class="next-hint">继续我们的故事 →</div>
+            </div>
+        </div>
+
+        <!-- 第五页：小惊喜 -->
+        <div class="page" id="page5">
+            <div class="content">
+                <div class="gift-icon">🎁</div>
+                <h2 class="title">那些小惊喜</h2>
+                <div class="memory-card">
+                    <div class="date">2024年4月10日</div>
+                    <p class="memory-text">记得我送你的那束花吗？</p>
+                    <div class="memory-detail">
+                        <p>你收到花的时候，眼睛都亮了</p>
+                        <p>你说这是你收到过最漂亮的花</p>
+                        <p>其实，你比花更美 🌸</p>
+                    </div>
+                </div>
+                <div class="next-hint">还有更多回忆 →</div>
+            </div>
+        </div>
+
+        <!-- 第六页：未来展望 -->
+        <div class="page" id="page6">
+            <div class="content">
+                <div class="future-icon">🌟</div>
+                <h2 class="title">我们的未来</h2>
+                <div class="memory-card">
+                    <p class="memory-text">亲爱的，情人节快乐！</p>
+                    <div class="memory-detail">
+                        <p>感谢你让我的生活变得如此美好</p>
+                        <p>希望未来的每一天都能和你一起度过</p>
+                        <p>我爱你 ❤️</p>
+                    </div>
+                </div>
+                <div class="restart-hint">重新开始我们的故事</div>
+            </div>
+        </div>
+
+        <!-- 导航指示器 -->
+        <div class="navigation">
+            <div class="nav-dots">
+                <span class="nav-dot active" data-page="1"></span>
+                <span class="nav-dot" data-page="2"></span>
+                <span class="nav-dot" data-page="3"></span>
+                <span class="nav-dot" data-page="4"></span>
+                <span class="nav-dot" data-page="5"></span>
+                <span class="nav-dot" data-page="6"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
